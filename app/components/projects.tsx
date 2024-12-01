@@ -33,7 +33,7 @@ export default function ProjectList() {
 
 function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="flex items-center gap-4 transition-transform hover:scale-105 hover:rotate-[0.2deg]">
+    <div className="flex items-center gap-4">
       <div className="flex flex-col gap-2">
         <Image
           src={project.image}
